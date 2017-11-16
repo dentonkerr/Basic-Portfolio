@@ -45,19 +45,24 @@ li {
     display: block;
     color: #777777;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
+    padding: 14px 16px;
 }
 
 li a {
     display: block;
     color: #777777;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
     position: relative;
     top: 0px;
+    padding: 14px 16px;
     right: 400px;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
 }
 
 /* about me box */
@@ -116,13 +121,6 @@ body {
     flex-direction: column;
 }
 
-aside h3 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5;
-    size: 18px;
-    font-weight: bold;
-}
-
 /* connect box index */
 aside {
     width: 200px;
@@ -136,6 +134,14 @@ aside {
     position: relative;
     bottom: 323px;
     right: -110px;
+}
+
+/*connect box index h3*/
+aside h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    size: 18px;
+    font-weight: bold;
 }
 
 /* connect box contact */
@@ -152,6 +158,13 @@ aside2 {
     bottom: 450px;
     right: -110px;
 }
+/*connect box contact h3*/
+aside2 h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    size: 18px;
+    font-weight: bold;
+}
 
 /* connect box contact portfolio */
 aside3 {
@@ -166,6 +179,13 @@ aside3 {
     position: relative;
     bottom: 758px;
     right: -110px;
+}
+/*connect box portfolio h3*/
+aside3 h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    size: 18px;
+    font-weight: bold;
 }
 
 input[type=text] {
