@@ -173,7 +173,7 @@ aside3 {
     padding: 20px;
     margin-left: 675px;
     position: relative;
-    bottom: 758px;
+    bottom: 594px;
     right: -110px;
 }
 /*connect box portfolio h3*/
@@ -241,14 +241,13 @@ textarea {
 
 div.gallery {
     margin: 5px;
+    margin-bottom: -30px;
     float: left;
     width: 175px;
-    margin-bottom: 0;
 }
 
 div.gallery img {
     width: 100%;
-    height: auto;
 }
 
 div.desc {
